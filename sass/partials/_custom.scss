@@ -1,0 +1,29 @@
+$primary: #c32c72;
+$dark: #e5e5e5;
+$light: #f4f3ee;
+$bg-color: #e5e5e5;
+$primary-font: "Open Sans", sans-serif;
+$secondary-font: "Archivo Narrow", sans-serif;
+/*Utility*/
+.w-90 {
+  width: 90%;
+}
+.navbar .active {
+  color: $primary !important;
+}
+.navbar-toggler:hover {
+  border-color: #463f3a;
+}
+/*Custom components */
+
+.container__box {
+  max-width: 400px;
+  background-color: $light;
+  aspect-ratio: 1;
+  border-radius: 15px;
+  justify-self: center;
+  align-self: center;
+}
+footer {
+  display: flex;
+}
